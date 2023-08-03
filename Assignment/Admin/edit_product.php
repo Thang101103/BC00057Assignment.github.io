@@ -74,7 +74,7 @@ $categoriesList = $category->getAll();
                 <label for="imageNew">Choose New image</label>
                 <input type="file" id="imageNew" name="image">
 
-                <label for="cateId">product type</label>
+                <label for="cateId">Product type</label>
                 <select id="cateId" name="cateId">
                     <?php foreach ($categoriesList as $key => $value) {
                         if ($value['id'] == $productUpdate['cateId']) { ?>
@@ -88,7 +88,7 @@ $categoriesList = $category->getAll();
                 <label for="qty">Quantity</label>
                 <input type="number" id="qty" name="qty" value="<?= $productUpdate['qty'] ?>">
 
-                <label for="des">describe</label>
+                <label for="des">Describe</label>
                 <textarea name="des" id="des" cols="30" rows="10"><?= $productUpdate['des'] ?></textarea>
 
                 <input type="submit" value="Lưu" name="submit">
