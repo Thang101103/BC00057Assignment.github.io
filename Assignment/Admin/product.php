@@ -38,10 +38,10 @@ class product
         $query = "INSERT INTO products VALUES (NULL,'$name','$originalPrice','$promotionPrice','$unique_image'," . Session::get('userId') . ",'" . date('Y/m/d') . "','$cateId','$qty','$des',1,0) ";
         $result = $this->db->insert($query);
         if ($result) {
-            $alert = "<span class='success'>Sản phẩm đã được thêm thành công</span>";
+            $alert = "<span class='success'>Product added successfully</span>";
             return $alert;
         } else {
-            $alert = "<span class='error'>Thêm sản phẩm thất bại</span>";
+            $alert = "<span class='error'>Add product failed</span>";
             return $alert;
         }
     }
@@ -168,10 +168,10 @@ class product
         }
         $result = $this->db->update($query);
         if ($result) {
-            $alert = "<span class='success'>Cập nhật sản phẩm thành công</span>";
+            $alert = "<span class='success'>Product update successful</span>";
             return $alert;
         } else {
-            $alert = "<span class='error'>Cập nhật sản phẩm thất bại</span>";
+            $alert = "<span class='error'>Product update failed</span>";
             return $alert;
         }
     }
