@@ -71,7 +71,7 @@ $categoriesList = $category->getAll();
                 <label for="image">Image</label>
                 <img src="uploads/<?= $productUpdate['image'] ?>" style="height: 200px;" id="image"> <br>
 
-                <label for="imageNew">choose new image</label>
+                <label for="imageNew">Choose New image</label>
                 <input type="file" id="imageNew" name="image">
 
                 <label for="cateId">product type</label>
