@@ -65,7 +65,7 @@ $categoriesList = $category->getAll();
                 <label for="originalPrice">cost</label>
                 <input type="number" id="originalPrice" name="originalPrice" value="<?= $productUpdate['originalPrice'] ?>">
 
-                <label for="promotionPrice">promotional price</label>
+                <label for="promotionPrice">Promotional price</label>
                 <input type="number" id="promotionPrice" name="promotionPrice" value="<?= $productUpdate['promotionPrice'] ?>">
 
                 <label for="image">Image</label>
