@@ -27,7 +27,7 @@ $completeOrderList = $order->getCompleteOrder();
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <script src="https://use.fontawesome.com/2145adbb48.js"></script>
     <script src="https://kit.fontawesome.com/a42aeb5b72.js" crossorigin="anonymous"></script>
-    <title>order management</title>
+    <title>Order Management</title>
 </head>
 
 <body>
@@ -44,7 +44,7 @@ $completeOrderList = $order->getCompleteOrder();
         </ul>
     </nav>
     <div class="title">
-        <h1>order list</h1>
+        <h1>Order List</h1>
     </div>
     <div class="container">
         <!-- Tab links -->
@@ -61,12 +61,12 @@ $completeOrderList = $order->getCompleteOrder();
             if ($processingOrderList) { ?>
                 <table class="list">
                     <tr>
-                        <th>numerical order</th>
-                        <th>code orders</th>
-                        <th>booking date</th>
-                        <th>delivery date</th>
-                        <th>status</th>
-                        <th>operation</th>
+                        <th>Numerical order</th>
+                        <th>Code orders</th>
+                        <th>Booking date</th>
+                        <th>Delivery date</th>
+                        <th>Status</th>
+                        <th>Operation</th>
                     </tr>
                     <?php $count = 1;
                     foreach ($processingOrderList as $key => $value) { ?>
