@@ -85,7 +85,7 @@ $categoriesList = $category->getAll();
                     <?php } ?>
                 </select>
 
-                <label for="qty">quantity</label>
+                <label for="qty">Quantity</label>
                 <input type="number" id="qty" name="qty" value="<?= $productUpdate['qty'] ?>">
 
                 <label for="des">describe</label>
